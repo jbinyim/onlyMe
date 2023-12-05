@@ -4,12 +4,18 @@ a{
 }
 h1{
     text-align: center;
-    border-bottom: 1px solid brown;
+    border-bottom: 5px solid brown;
     padding: 10px;
     margin: 0;
 }
+h2{
+    text-align: center;
+}
+img{
+    display: block; margin: 0px auto;
+}
 ol{
-    border-right: 1px solid brown;
+    border-right: 5px solid brown;
     margin: 0;
     padding: 20px;
     width: 118px;
@@ -20,4 +26,15 @@ ol{
 }
 #grid #article{
     padding-left: 20px;
+}
+@media(max-width:800px){
+    #grid{
+        display: block;
+    }
+    ol{
+        border-right: none;
+    }
+    h1{
+        border-bottom: none;
+    }
 }
